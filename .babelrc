@@ -1,0 +1,6 @@
+{
+   "presets": [
+      "@babel/preset-env", //compiles ES5, ES6 and whole modern JS
+      "@babel/preset-react" //compile JSX and whole react syntax within the library
+   ]
+}
