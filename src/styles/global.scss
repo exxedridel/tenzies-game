@@ -6,6 +6,7 @@ body {
   margin: 0;
   background-color: #0b2434;
   padding: 20px;
+  font-family: "Karla", sans-serif;
 }
 
 main {
@@ -15,8 +16,8 @@ main {
   border-radius: 5px;
   padding: 20px;
   display: flex;
-//flex-direction: column;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -33,12 +34,19 @@ main {
   font-weight: bold;
 }
 
+// .game-container {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   align-items: center;
+//   gap: 60px;
+// }
+
 .dice-container {
   display: grid;
   grid-template: auto auto / repeat(5, 1fr);
   gap: 20px;
 }
-
 // with flex-wrap
 // .dice-container {
 //   display: flex;
@@ -47,3 +55,20 @@ main {
 //   gap: 25px;
 //   padding: 25px;
 // }
+
+.roll-dice {
+  height: 50px;
+  width: 100px;
+  background-color: #5035ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Karla", sans-serif;
+}
+
+.roll-dice:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
