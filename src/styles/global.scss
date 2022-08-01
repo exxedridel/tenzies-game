@@ -26,7 +26,7 @@ main {
   height: 400px;
   max-width: 800px;
   border-radius: 5px;
-  padding: 20px;
+  padding: 8px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -43,6 +43,7 @@ main {
   font-weight: 400;
   margin-top: 0;
   text-align: center;
+  padding: 0 20px;
 }
 
 .dice-container {
@@ -75,7 +76,7 @@ main {
 
 .roll-dice {
   height: 50px;
-  width: 125px;
+  width: 135px;
   background-color: #5035ff;
   color: white;
   border: none;
